@@ -1,12 +1,13 @@
-document.addEventListener("DOMContentLoaded", function () {
+function initializeNavigation(){
 
-    const navigationToggle = document.getElementById("navigation-toggle");
-    const navigationMenu = document.getElementById("navigation-menu");
+const toggle=document.getElementById("navigation-toggle");
 
-    navigationToggle.addEventListener("click", function () {
+const menu=document.getElementById("navigation-menu");
 
-        navigationMenu.classList.toggle("navigation-active");
+toggle.addEventListener("click",()=>{
 
-    });
+menu.classList.toggle("navigation-active");
 
 });
+
+}
