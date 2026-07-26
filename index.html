@@ -63,8 +63,21 @@ content="Royal Shelters, Service Apartments Chennai, Mogappair Service Apartment
 <body>
 
 <!-- Navigation -->
-
 <div id="navigation-container"></div>
+
+<script>
+
+fetch("navigation.html")
+.then(response=>response.text())
+.then(data=>{
+
+document.getElementById("navigation-container").innerHTML=data;
+
+initializeNavigation();
+
+});
+
+</script>
 
 
 <!-- Banner -->
