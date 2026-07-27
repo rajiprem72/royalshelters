@@ -1,0 +1,330 @@
+/*==================================================
+CONTACT PAGE
+==================================================*/
+
+.contact-section{
+
+    padding:70px 20px;
+
+    background:#f5f7fa;
+
+}
+
+.contact-container{
+
+    width:90%;
+
+    max-width:1200px;
+
+    margin:auto;
+
+}
+
+
+/*==================================================
+TITLE
+==================================================*/
+
+.contact-title{
+
+    text-align:center;
+
+    font-size:42px;
+
+    color:#0b3c5d;
+
+    margin-bottom:15px;
+
+}
+
+.contact-subtitle{
+
+    text-align:center;
+
+    font-size:20px;
+
+    color:#666;
+
+    margin-bottom:50px;
+
+}
+
+
+/*==================================================
+CARDS
+==================================================*/
+
+.contact-card{
+
+    background:#ffffff;
+
+    border-radius:12px;
+
+    padding:35px;
+
+    margin-bottom:35px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.contact-card:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+}
+
+.contact-card h2{
+
+    color:#0b3c5d;
+
+    margin-bottom:20px;
+
+    font-size:28px;
+
+}
+
+.contact-card p{
+
+    font-size:18px;
+
+    line-height:1.9;
+
+    color:#444;
+
+    margin-bottom:15px;
+
+}
+
+
+/*==================================================
+PHONE BUTTONS
+==================================================*/
+
+.contact-button{
+
+    display:inline-block;
+
+    text-decoration:none;
+
+    background:#0b3c5d;
+
+    color:#ffffff;
+
+    padding:15px 35px;
+
+    border-radius:40px;
+
+    margin:10px;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+.contact-button:hover{
+
+    background:#08283f;
+
+}
+
+
+/*==================================================
+WHATSAPP
+==================================================*/
+
+.contact-whatsapp{
+
+    display:inline-block;
+
+    text-decoration:none;
+
+    background:#25D366;
+
+    color:white;
+
+    padding:15px 35px;
+
+    border-radius:40px;
+
+    margin:10px;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+.contact-whatsapp:hover{
+
+    background:#1ba84e;
+
+}
+
+
+/*==================================================
+EMAIL
+==================================================*/
+
+.contact-email{
+
+    display:inline-block;
+
+    text-decoration:none;
+
+    background:#c89b3c;
+
+    color:white;
+
+    padding:15px 35px;
+
+    border-radius:40px;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+.contact-email:hover{
+
+    background:#af8124;
+
+}
+
+
+/*==================================================
+GOOGLE MAP
+==================================================*/
+
+.contact-map-button{
+
+    display:inline-block;
+
+    text-decoration:none;
+
+    background:#d93025;
+
+    color:white;
+
+    padding:15px 35px;
+
+    border-radius:40px;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+.contact-map-button:hover{
+
+    background:#b72218;
+
+}
+
+
+/*==================================================
+IMAGES
+==================================================*/
+
+.contact-image{
+
+    width:100%;
+
+    border-radius:12px;
+
+    margin-top:20px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+
+}
+
+
+/*==================================================
+LINKS
+==================================================*/
+
+.contact-card a{
+
+    word-break:break-word;
+
+}
+
+
+/*==================================================
+RESPONSIVE
+==================================================*/
+
+@media(max-width:768px){
+
+.contact-section{
+
+    padding:40px 15px;
+
+}
+
+.contact-title{
+
+    font-size:32px;
+
+}
+
+.contact-subtitle{
+
+    font-size:17px;
+
+}
+
+.contact-card{
+
+    padding:25px;
+
+}
+
+.contact-card h2{
+
+    font-size:24px;
+
+}
+
+.contact-card p{
+
+    font-size:17px;
+
+}
+
+.contact-button,
+
+.contact-whatsapp,
+
+.contact-email,
+
+.contact-map-button{
+
+    display:block;
+
+    width:100%;
+
+    max-width:320px;
+
+    margin:15px auto;
+
+    text-align:center;
+
+}
+
+}
