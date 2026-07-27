@@ -1,0 +1,268 @@
+/*====================================================
+FAQ PAGE
+====================================================*/
+
+.faq-section{
+
+    padding:70px 20px;
+
+    background:#f5f7fa;
+
+}
+
+.faq-container{
+
+    width:90%;
+
+    max-width:1100px;
+
+    margin:auto;
+
+}
+
+
+/*====================================================
+TITLE
+====================================================*/
+
+.faq-title{
+
+    text-align:center;
+
+    font-size:42px;
+
+    color:#0b3c5d;
+
+    margin-bottom:15px;
+
+}
+
+.faq-subtitle{
+
+    text-align:center;
+
+    font-size:18px;
+
+    color:#666;
+
+    margin-bottom:50px;
+
+}
+
+
+/*====================================================
+FAQ ITEM
+====================================================*/
+
+.faq-item{
+
+    background:#ffffff;
+
+    margin-bottom:20px;
+
+    border-radius:10px;
+
+    box-shadow:0 4px 15px rgba(0,0,0,.08);
+
+    overflow:hidden;
+
+    transition:.3s;
+
+}
+
+.faq-item:hover{
+
+    box-shadow:0 8px 25px rgba(0,0,0,.15);
+
+}
+
+
+/*====================================================
+QUESTION
+====================================================*/
+
+.faq-item summary{
+
+    list-style:none;
+
+    cursor:pointer;
+
+    padding:20px 25px;
+
+    font-size:20px;
+
+    font-weight:bold;
+
+    color:#0b3c5d;
+
+    position:relative;
+
+    transition:.3s;
+
+}
+
+.faq-item summary:hover{
+
+    background:#f2f6fb;
+
+}
+
+.faq-item summary::-webkit-details-marker{
+
+    display:none;
+
+}
+
+
+/*====================================================
+PLUS / MINUS
+====================================================*/
+
+.faq-item summary::after{
+
+    content:"+";
+
+    position:absolute;
+
+    right:25px;
+
+    top:18px;
+
+    font-size:28px;
+
+    color:#c89b3c;
+
+    font-weight:bold;
+
+}
+
+.faq-item[open] summary::after{
+
+    content:"−";
+
+}
+
+
+/*====================================================
+ANSWER
+====================================================*/
+
+.faq-item p{
+
+    padding:0 25px 20px 25px;
+
+    line-height:1.9;
+
+    color:#444;
+
+    font-size:17px;
+
+}
+
+.faq-item ul{
+
+    padding:0 50px 20px 65px;
+
+}
+
+.faq-item li{
+
+    margin-bottom:10px;
+
+    line-height:1.8;
+
+    color:#444;
+
+}
+
+.faq-item a{
+
+    color:#0b3c5d;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+}
+
+.faq-item a:hover{
+
+    color:#c89b3c;
+
+    text-decoration:underline;
+
+}
+
+
+/*====================================================
+OPEN QUESTION
+====================================================*/
+
+.faq-item[open] summary{
+
+    background:#0b3c5d;
+
+    color:white;
+
+}
+
+.faq-item[open] summary::after{
+
+    color:#FFD700;
+
+}
+
+
+/*====================================================
+RESPONSIVE
+====================================================*/
+
+@media(max-width:768px){
+
+.faq-section{
+
+    padding:40px 15px;
+
+}
+
+.faq-title{
+
+    font-size:32px;
+
+}
+
+.faq-subtitle{
+
+    font-size:16px;
+
+}
+
+.faq-item summary{
+
+    font-size:18px;
+
+    padding:18px 20px;
+
+}
+
+.faq-item summary::after{
+
+    right:20px;
+
+}
+
+.faq-item p{
+
+    font-size:16px;
+
+    padding:0 20px 20px;
+
+}
+
+.faq-item ul{
+
+    padding:0 20px 20px 40px;
+
+}
+
+}
