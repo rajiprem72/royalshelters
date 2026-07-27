@@ -57,6 +57,7 @@ content="Royal Shelters, Service Apartments Chennai, Mogappair Service Apartment
 
 <link rel="stylesheet" href="css/navigation.css">
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/images.css">     
 
 </head>
 
@@ -93,14 +94,116 @@ initializeNavigation();
 <!-- Main Content -->
 
 <main>
+      <!-- =====================================================
+IMAGE GALLERY
+====================================================== -->
 
-<section class="welcome-section">
+<section class="images-section">
 
-    <h1>
-        Under Construction
-    </h1>
+    <div class="images-container">
+
+        <h1 class="images-title">
+            Royal Shelters Image Gallery
+        </h1>
+
+        <p class="images-subtitle">
+            Explore our premium service apartments through our image gallery.
+        </p>
+
+
+        <!-- ================================================= -->
+        <!-- Entrance -->
+        <!-- ================================================= -->
+
+        <h2 class="images-heading">Entrance</h2>
+
+        <div class="images-grid">
+
+            <img src="images/royalshelter1.jpg" class="images-photo" alt="Entrance" onclick="openImage(this.src)">
+            <img src="images/royalshelter2.jpg" class="images-photo" alt="Entrance" onclick="openImage(this.src)">
+            <img src="images/royalshelter3.jpg" class="images-photo" alt="Entrance" onclick="openImage(this.src)">
+            <img src="images/royalshelter4.jpg" class="images-photo" alt="Entrance" onclick="openImage(this.src)">
+            <img src="images/royalshelter5.jpg" class="images-photo" alt="Entrance" onclick="openImage(this.src)">
+
+        </div>
+
+
+
+        <!-- ================================================= -->
+        <!-- Office -->
+        <!-- ================================================= -->
+
+        <h2 class="images-heading">Office</h2>
+
+        <div class="images-grid">
+
+            <img src="images/office1.jpg" class="images-photo" alt="Office" onclick="openImage(this.src)">
+            <img src="images/office2.jpg" class="images-photo" alt="Office" onclick="openImage(this.src)">
+
+        </div>
+
+
+
+        <!-- ================================================= -->
+        <!-- Hall -->
+        <!-- ================================================= -->
+
+        <h2 class="images-heading">Hall</h2>
+
+        <div class="images-grid">
+        </div>
+
+
+
+        <!-- ================================================= -->
+        <!-- Bathroom -->
+        <!-- ================================================= -->
+
+        <h2 class="images-heading">Bathroom</h2>
+
+        <div class="images-grid">
+
+            <img src="images/bathroom1.jpg" class="images-photo" alt="Bathroom" onclick="openImage(this.src)">
+            <img src="images/bathroom2.jpg" class="images-photo" alt="Bathroom" onclick="openImage(this.src)">
+            <img src="images/bathroom3.jpg" class="images-photo" alt="Bathroom" onclick="openImage(this.src)">
+
+        </div>
+
+
+
+        <!-- ================================================= -->
+        <!-- Car Parking -->
+        <!-- ================================================= -->
+
+        <h2 class="images-heading">Car Parking</h2>
+
+        <div class="images-grid">
+
+            <img src="images/carparking1.jpg" class="images-photo" alt="Car Parking" onclick="openImage(this.src)">
+            <img src="images/carparking2.jpg" class="images-photo" alt="Car Parking" onclick="openImage(this.src)">
+
+        </div>
+
+    </div>
 
 </section>
+
+
+
+<!-- =====================================================
+LIGHTBOX
+====================================================== -->
+
+<div id="images-lightbox" class="images-lightbox" onclick="closeImage()">
+
+    <span class="images-close">&times;</span>
+
+    <img id="images-lightbox-image" class="images-lightbox-image">
+
+</div>
+
+
+    
 
 </main>
 
@@ -117,6 +220,7 @@ initializeNavigation();
 <!-- JavaScript -->
 
 <script src="js/navigation.js"></script>
+<script src="js/gallery.js.js"></script>     
 
 </body>
 </html>
