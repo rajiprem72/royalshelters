@@ -1,0 +1,154 @@
+/*==================================================
+VIDEOS PAGE
+==================================================*/
+
+.videos-section{
+
+    padding:70px 20px;
+
+    background:#f5f7fa;
+
+}
+
+.videos-container{
+
+    width:90%;
+
+    max-width:1100px;
+
+    margin:auto;
+
+}
+
+
+/*==================================================
+TITLE
+==================================================*/
+
+.videos-title{
+
+    text-align:center;
+
+    font-size:42px;
+
+    color:#0b3c5d;
+
+    margin-bottom:15px;
+
+}
+
+.videos-subtitle{
+
+    text-align:center;
+
+    font-size:20px;
+
+    color:#666;
+
+    margin-bottom:50px;
+
+    line-height:1.8;
+
+}
+
+
+/*==================================================
+VIDEO CARD
+==================================================*/
+
+.videos-card{
+
+    background:#ffffff;
+
+    border-radius:15px;
+
+    padding:30px;
+
+    margin-bottom:40px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.videos-card:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+
+}
+
+
+/*==================================================
+VIDEO HEADING
+==================================================*/
+
+.videos-heading{
+
+    text-align:center;
+
+    color:#0b3c5d;
+
+    font-size:28px;
+
+    margin-bottom:25px;
+
+}
+
+
+/*==================================================
+VIDEO PLAYER
+==================================================*/
+
+.videos-player{
+
+    width:100%;
+
+    display:block;
+
+    border-radius:12px;
+
+    background:#000;
+
+}
+
+
+/*==================================================
+RESPONSIVE
+==================================================*/
+
+@media(max-width:768px){
+
+.videos-section{
+
+    padding:40px 15px;
+
+}
+
+.videos-title{
+
+    font-size:32px;
+
+}
+
+.videos-subtitle{
+
+    font-size:17px;
+
+}
+
+.videos-card{
+
+    padding:20px;
+
+}
+
+.videos-heading{
+
+    font-size:22px;
+
+}
+
+}
