@@ -1,0 +1,375 @@
+/*==================================================
+INDEX PAGE
+==================================================*/
+
+.index-container{
+
+    width:90%;
+    max-width:1200px;
+
+    margin:auto;
+
+}
+
+
+/*==================================================
+WELCOME
+==================================================*/
+
+.index-welcome{
+
+    padding:70px 20px;
+
+    background:#ffffff;
+
+    text-align:center;
+
+}
+
+.index-title{
+
+    font-size:48px;
+
+    color:#0b3c5d;
+
+    margin-bottom:15px;
+
+}
+
+.index-subtitle{
+
+    font-size:28px;
+
+    color:#c89b3c;
+
+    margin-bottom:30px;
+
+    font-weight:500;
+
+}
+
+.index-description{
+
+    font-size:20px;
+
+    line-height:1.8;
+
+    color:#444;
+
+    max-width:900px;
+
+    margin:auto;
+
+}
+
+.index-button-group{
+
+    margin-top:40px;
+
+}
+
+.index-call-button,
+.index-book-button{
+
+    display:inline-block;
+
+    text-decoration:none;
+
+    padding:15px 35px;
+
+    margin:10px;
+
+    border-radius:40px;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+.index-call-button{
+
+    background:#0b3c5d;
+
+    color:#fff;
+
+}
+
+.index-book-button{
+
+    background:#c89b3c;
+
+    color:#fff;
+
+}
+
+.index-call-button:hover{
+
+    background:#08293f;
+
+}
+
+.index-book-button:hover{
+
+    background:#b18324;
+
+}
+
+
+/*==================================================
+COMMON SECTION
+==================================================*/
+
+.index-section-title{
+
+    text-align:center;
+
+    font-size:40px;
+
+    color:#0b3c5d;
+
+    margin-bottom:50px;
+
+}
+
+
+/*==================================================
+AMENITIES
+==================================================*/
+
+.index-amenities{
+
+    padding:80px 20px;
+
+    background:#f7f7f7;
+
+}
+
+.index-amenities-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:30px;
+
+}
+
+.index-amenity-card{
+
+    background:#fff;
+
+    padding:35px;
+
+    text-align:center;
+
+    border-radius:12px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.index-amenity-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.index-amenity-card h3{
+
+    margin:20px 0;
+
+    color:#0b3c5d;
+
+}
+
+.index-amenity-card p{
+
+    line-height:1.6;
+
+}
+
+
+/*==================================================
+ABOUT
+==================================================*/
+
+.index-about{
+
+    padding:80px 20px;
+
+    background:#fff;
+
+}
+
+.index-about p{
+
+    font-size:19px;
+
+    line-height:1.9;
+
+    text-align:center;
+
+}
+
+
+/*==================================================
+FEATURES
+==================================================*/
+
+.index-features{
+
+    padding:80px 20px;
+
+    background:#fafafa;
+
+}
+
+.index-features-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+    gap:30px;
+
+}
+
+.index-feature{
+
+    background:white;
+
+    border-radius:12px;
+
+    padding:35px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.index-feature:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.index-feature h3{
+
+    color:#0b3c5d;
+
+    margin:20px 0;
+
+}
+
+.index-feature p{
+
+    line-height:1.8;
+
+}
+
+
+/*==================================================
+CONTACT
+==================================================*/
+
+.index-contact{
+
+    padding:80px 20px;
+
+    background:#0b3c5d;
+
+    color:white;
+
+    text-align:center;
+
+}
+
+.index-contact p{
+
+    margin-bottom:20px;
+
+    line-height:1.8;
+
+    font-size:18px;
+
+}
+
+.index-contact a{
+
+    color:#FFD700;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+}
+
+.index-contact a:hover{
+
+    text-decoration:underline;
+
+}
+
+
+/*==================================================
+RESPONSIVE
+==================================================*/
+
+@media(max-width:768px){
+
+.index-title{
+
+    font-size:34px;
+
+}
+
+.index-subtitle{
+
+    font-size:22px;
+
+}
+
+.index-description{
+
+    font-size:17px;
+
+}
+
+.index-section-title{
+
+    font-size:30px;
+
+}
+
+.index-call-button,
+.index-book-button{
+
+    display:block;
+
+    width:100%;
+
+    max-width:300px;
+
+    margin:15px auto;
+
+}
+
+.index-about p{
+
+    text-align:justify;
+
+}
+
+.index-contact p{
+
+    font-size:17px;
+
+}
+
+}
