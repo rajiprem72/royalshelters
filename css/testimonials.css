@@ -81,3 +81,197 @@ GOOGLE RATING
     background:#08283f;
 
 }
+/*==================================================
+TESTIMONIALS PAGE
+==================================================*/
+
+.testimonials-section{
+
+    padding:70px 20px;
+
+    background:#f5f7fa;
+
+}
+
+.testimonials-container{
+
+    width:90%;
+
+    max-width:1100px;
+
+    margin:auto;
+
+}
+
+
+/*==================================================
+TITLE
+==================================================*/
+
+.testimonials-title{
+
+    text-align:center;
+
+    font-size:42px;
+
+    color:#0b3c5d;
+
+    margin-bottom:10px;
+
+}
+
+.testimonials-subtitle{
+
+    text-align:center;
+
+    font-size:20px;
+
+    color:#666;
+
+    margin-bottom:50px;
+
+}
+
+
+/*==================================================
+CARD
+==================================================*/
+
+.testimonials-card{
+
+    background:#ffffff;
+
+    border-radius:12px;
+
+    padding:30px;
+
+    margin-bottom:35px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.testimonials-card:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+}
+
+
+/*==================================================
+HEADER
+==================================================*/
+
+.testimonials-header{
+
+    margin-bottom:15px;
+
+}
+
+.testimonials-header h3{
+
+    color:#0b3c5d;
+
+    font-size:28px;
+
+    margin-bottom:6px;
+
+}
+
+.testimonials-badge{
+
+    color:#777;
+
+    font-size:16px;
+
+}
+
+
+/*==================================================
+STARS
+==================================================*/
+
+.testimonials-stars{
+
+    color:#FFD700;
+
+    font-size:24px;
+
+    margin:15px 0;
+
+}
+
+
+/*==================================================
+REVIEW
+==================================================*/
+
+.testimonials-card p{
+
+    font-size:18px;
+
+    line-height:1.9;
+
+    color:#444;
+
+    margin-bottom:20px;
+
+}
+
+
+/*==================================================
+DATE
+==================================================*/
+
+.testimonials-date{
+
+    display:block;
+
+    color:#999;
+
+    font-style:italic;
+
+}
+
+
+/*==================================================
+RESPONSIVE
+==================================================*/
+
+@media(max-width:768px){
+
+.testimonials-title{
+
+    font-size:32px;
+
+}
+
+.testimonials-subtitle{
+
+    font-size:17px;
+
+}
+
+.testimonials-card{
+
+    padding:22px;
+
+}
+
+.testimonials-header h3{
+
+    font-size:24px;
+
+}
+
+.testimonials-card p{
+
+    font-size:16px;
+
+}
+
+}
