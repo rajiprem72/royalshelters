@@ -33,7 +33,7 @@ content="Royal Shelters, Service Apartments Chennai, Mogappair Service Apartment
 <meta property="og:title" content="Royal Shelters | Premium Service Apartments">
 <meta property="og:description" content="Premium Fully Furnished Deluxe A/C Service Apartments in Mogappair East, Chennai.">
 <meta property="og:url" content="https://royalshelters.in/">
-<meta property="og:image" content="https://royalshelters.in/images/banner.webp">
+<meta property="og:image" content="https://royalshelters.in/images/banner.png">
 
 
 <!-- Twitter -->
@@ -41,7 +41,7 @@ content="Royal Shelters, Service Apartments Chennai, Mogappair Service Apartment
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Royal Shelters">
 <meta name="twitter:description" content="Premium Service Apartments in Chennai">
-<meta name="twitter:image" content="https://royalshelters.in/images/banner.webp">
+<meta name="twitter:image" content="https://royalshelters.in/images/banner.png">
 
 
 <!-- Theme -->
@@ -63,8 +63,21 @@ content="Royal Shelters, Service Apartments Chennai, Mogappair Service Apartment
 <body>
 
 <!-- Navigation -->
-
 <div id="navigation-container"></div>
+
+<script>
+
+fetch("navigation.html")
+.then(response=>response.text())
+.then(data=>{
+
+document.getElementById("navigation-container").innerHTML=data;
+
+initializeNavigation();
+
+});
+
+</script>
 
 
 <!-- Banner -->
@@ -83,25 +96,9 @@ content="Royal Shelters, Service Apartments Chennai, Mogappair Service Apartment
 
 <section class="welcome-section">
 
-    <img src="images/logo.png"
-         class="home-logo"
-         alt="Royal Shelters Logo">
-
     <h1>
-        Welcome to Royal Shelters
+        Under Construction
     </h1>
-
-    <h2>
-        Premium Service Apartments
-    </h2>
-
-    <p>
-
-        Experience a comfortable stay in our fully furnished Deluxe A/C Service Apartments located in the heart of Mogappair East, Chennai.
-
-        Whether you are visiting for business, medical treatment, family vacations or long-term stays, Royal Shelters provides the perfect home away from home.
-
-    </p>
 
 </section>
 
@@ -119,7 +116,6 @@ content="Royal Shelters, Service Apartments Chennai, Mogappair Service Apartment
 
 <!-- JavaScript -->
 
-<script src="js/script.js"></script>
 <script src="js/navigation.js"></script>
 
 </body>
